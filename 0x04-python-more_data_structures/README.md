@@ -283,7 +283,7 @@ print(new_list)
 print(my_list)
 ```
 
-Output:
+Expected Output:
 ```
 [4, 8, 12, 16, 24]
 [1, 2, 3, 4, 6]
