@@ -36,13 +36,13 @@ Testing float number.
     98
 
 Testing not int variable for b.
-    >>> add_integer(2, "Holberton")
+    >>> add_integer(2, "Tapiwanashe")
     Traceback (most recent call last):
     ...
     TypeError: b must be an integer
 
 Testing not int variable for a.
-    >>> add_integer("school", 10)
+    >>> add_integer("Mlambo", 10)
     Traceback (most recent call last):
     ...
     TypeError: a must be an integer
