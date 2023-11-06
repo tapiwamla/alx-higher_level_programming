@@ -1,5 +1,5 @@
-The module for ``7-base_geometry``.
-===================================
+The ``7-base_geometry`` module.
+===============================
 
 Importing the function from the module:
         >>> BG = __import__("7-base_geometry").BaseGeometry
@@ -45,13 +45,13 @@ Testing for integer == 0:
          ValueError: integer must be greater than 0
 
 Testing for integer < 0;
-	 >>> b.integer_validator("integer", -15)
+	 >>> b.integer_validator("integer", -5)
 	 Traceback (most recent call last):
          ...
          ValueError: integer must be greater than 0
 
 Testing for non-integer types:
-	 >>> b.integer_validator("boolean", True)
+	 >>> b.integer_validator("bool", True)
 	 Traceback (most recent call last):
          ...
          TypeError: bool must be an integer
